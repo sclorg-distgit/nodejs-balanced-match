@@ -9,7 +9,7 @@
 
 Name:		%{?scl_prefix}nodejs-balanced-match
 Version:	0.2.1
-Release:	3%{?dist}
+Release:	2%{?dist}
 Summary:	Match balanced character pairs, like "{" and "}"
 
 License:	MIT
@@ -60,9 +60,6 @@ make test
 %{nodejs_sitelib}/%{packagename}
 
 %changelog
-* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.2.1-3
-- rebuilt
-
 * Tue Dec 01 2015 Tomas Hrcka <thrcka@redhat.com> - 0.2.1-2
 - Enable scl macros
 
